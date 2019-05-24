@@ -1,7 +1,7 @@
 /**
  *  MeDitationTime
  *
- *  Info_hand_1.class: Controller class for the info_hand section
+ *  Info_hand_3.class: Controller class for the info_hand section
  *
  *  @version    1.0
  *  @author     Meditate to Regenerate (meditatetoregenerate.org)
@@ -11,11 +11,11 @@ package com.meditation.metime;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
 
-public class Info_hand_1 extends AppCompatActivity {
+public class Info_hand_3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class Info_hand_1 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(), Journey_level_1.class);
+                Intent intent = new Intent(getApplicationContext(), Journey_level_3.class);
                 startActivity(intent);
             }
         });
